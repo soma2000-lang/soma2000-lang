@@ -2,7 +2,7 @@
 
 <p align='center'>
   My name is <b>Somasree Majumder</b>.<br/>
-  I am a 3rd year student at <b>Institute of Engineering and Management, Kolkata</b>
+  I am a 3rd year ECE student at <b>Institute of Engineering and Management, Kolkata</b>
 </p>
 
 
