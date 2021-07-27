@@ -49,6 +49,7 @@ My Interests :heart_eyes:<br>
 ![Somasree's github stats](https://github-readme-stats.vercel.app/api?username=soma2000-lang&count_private=true&show_icons=True&theme=gotham)
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=soma2000-lang&hide=MATLAB&exclude_repo=dotfiles)
+[![Somasree's github activity graph](https://activity-graph.herokuapp.com/graph?username=soma2000-lang&bg_color=000000&color=00FF00&line=FFFF00&point=964B00&area=true&hide_border=false)](https://https://github.com/soma2000-lang?tab=repositories)
 
 
 
