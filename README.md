@@ -27,13 +27,13 @@
 </p>
 <!-- <div align="center"> -->
  
-<!--  <p align="left"> <img src="https://github-profile-trophy.vercel.app/?username=somalang-2000&theme=dark" alt="yashikajotwani12"> </p> -->
+<!--  <p align="left"> <img src="https://github-profile-trophy.vercel.app/?username=soma2000-lang&theme=dark" alt="yashikajotwani12"> </p> -->
 
-<p align="left"> <img src="https://github-readme-streak-stats.herokuapp.com/?user=somalang-2000&theme=dark" alt="so" > </p>
+<p align="left"> <img src="https://github-readme-streak-stats.herokuapp.com/?user=soma2000-lang&theme=dark" alt="so" > </p>
 
-<p align="left"> <img src="https://github-readme-stats.vercel.app/api/top-langs?username=somalang-2000&show_icons=true&locale=en&layout=compact&theme=dark" alt="somalang-2000" > </p>
+<p align="left"> <img src="https://github-readme-stats.vercel.app/api/top-langs?username=soma2000-lang&show_icons=true&locale=en&layout=compact&theme=dark" alt="soma2000-lang" > </p>
 
-<!-- <p align="left"> <img src="https://github-readme-stats.vercel.app/api?username=somalang-2000&show_icons=true&locale=en&theme=dark" alt="somalang-2000" ></p>  -->
+<!-- <p align="left"> <img src="https://github-readme-stats.vercel.app/api?username=soma2000-lang&show_icons=true&locale=en&theme=dark" alt="soma2000-lang" ></p>  -->
   
 
 
