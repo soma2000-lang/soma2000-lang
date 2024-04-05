@@ -37,20 +37,6 @@
 <!-- <p align="left"> <img src="https://github-readme-stats.vercel.app/api?username=soma2000-lang&show_icons=true&locale=en&theme=dark" alt="soma2000-lang" ></p>  -->
   
 
- Ranked 18 among 2500 participants HackerEarth Machine
-Learning Challenge.
-• Ranked 1.6k globally Google code jam for women
-• Made it to the Gitlab Documentation Hackathon Ranklist.
-• Ranked 3K globally in GOOGLE KICKSTART 2022
-• Received Dan Kohn Diversity Scholarship for KubeCon +
-CloudNativeCon Europe 2022(virtual)
-• Ranked 12 among more than 1000 participants in Cipla data
-science competition
-• Contributed to Amazing Projects like Pytorch ignite,Hugging
-Face Diffusers and Transformers,KerasCv,KerasNlp,Numpy,Pytorch
-Geometric
-• LiFT Scholar 2022(Top 500 candidates worldwide in developers category)
-• GHC OSD’23 Mentor for project Openssf
 
 
 My Interests :heart_eyes:<br>
