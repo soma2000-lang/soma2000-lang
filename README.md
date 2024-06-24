@@ -3,8 +3,7 @@
 
 <p align="center">  Hi there! 👋 </p>
 <p align='center'>
-  My name is <b>Somasree Majumder</b>.<br/>
-  I am working as a Developer at Deloitte</b>
+
 </p>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=soma2000-lang&label=Profile%20views&color=0e75b6&style=flat" alt="soma2000-lang" /> </p>
