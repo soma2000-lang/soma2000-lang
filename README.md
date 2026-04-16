@@ -2,7 +2,7 @@
 
 **ML Engineer — Defense CV · Open Source · Systems from Paper to Production**
 
-Building real-time computer vision systems for defense at [DeepEdge](https://deepedge.ai). Contributor to PyTorch Lightning, Hugging Face, and KerasCV/NLP. [LinkedIn LIFT Scholar 2022](https://www.linkedin.com) (Top 500 women technologists globally, 0.5% acceptance).
+Building real-time computer vision systems for defense at [DeepEdge](https://deepedge.ai). Contributor to PyTorch Lightning, Hugging Face, and KerasCV/NLP. [LinkedIn LIFT Scholar 2022](https://www.linkedin.com) (Top 500  technologists globally, 0.5% acceptance).
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/somasree-majumder-3533411aa/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=flat&logo=google-chrome&logoColor=white)](https://soma2000-lang.github.io/portfolio)
