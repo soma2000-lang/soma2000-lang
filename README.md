@@ -1,217 +1,88 @@
-<h1 align="center">👋 Hi, I'm Somasree Majumder</h1>
+# Somasree Majumder
 
-<p align="center">
-  <img src="https://github.com/alansmathew/alansmathew/raw/master/lang.gif" alt="coding animation" width="40%"/>
-</p>
+**ML Engineer — Defense CV · Open Source · Systems from Paper to Production**
 
-<h3 align="center">Full Stack Machine Learning Engineer | AI/ML Specialist | Open Source Contributor</h3>
+Building real-time computer vision systems for defense at [DeepEdge](https://deepedge.ai). Contributor to PyTorch Lightning, Hugging Face, and KerasCV/NLP. [LinkedIn LIFT Scholar 2022](https://www.linkedin.com) (Top 500 women technologists globally, 0.5% acceptance).
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=soma2000-lang&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
-</p>
-
-<p align="center">
-  <i>Building intelligent systems that solve real-world problems through cutting-edge AI/ML technologies</i>
-</p>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/somasree-majumder-3533411aa/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=flat&logo=google-chrome&logoColor=white)](https://soma2000-lang.github.io/portfolio)
+[![LeetCode](https://img.shields.io/badge/LeetCode_650+-FFA116?style=flat&logo=leetcode&logoColor=black)](https://leetcode.com/soma2000-lang/)
 
 ---
 
-## 🚀 About Me
+## What I'm Working On
 
-I'm a **Full Stack Machine Learning Engineer** at DeepEdge, specializing in computer vision, deep learning, and scalable AI solutions. With a strong foundation in both research and production-grade ML systems, I bring ideas from paper to deployment.
+**Anti-UAV Tracking @ DeepEdge** — End-to-end production system deployed at 3 defense installations, processing infrared video in real-time on NVIDIA Jetson edge devices.
 
-- 🎯 Currently working on **anti-UAV quadcopter tracking systems** with advanced object detection and tracking
-- 🔬 Published researcher with papers in **Homomorphic Encryption** and **ML in Medicine**
-- 🏆 **Top 10 finalist** at Challang Hackathon (100 elite teams worldwide)
-- 🌟 **LiFT Scholar 2022** (Top 500 worldwide)
-- 💡 Active contributor to **PyTorch Lightning**, **Hugging Face**, **KerasCV**, and **KerasNLP**
-- 📊 Competitive programmer: Ranked **18/2500** in HackerEarth ML Challenge
-- 🎓 B.Tech in Electronics and Communication Engineering with **8.94 CGPA**
+- Sub-pixel tracking ensemble (Lucas-Kanade + TAPNet + CoTracker) extending detection range 1.5km → 5km — contributed to $2M+ contract renewal
+- Hybrid CV pipeline (YOLOv8 + Kalman + MOG2/SVM): 95%+ accuracy, 80% false positive reduction
+- 4.2x inference speedup (250ms → 60ms) via TensorRT quantization + CUDA kernel fusion for 30fps edge deployment
+- 3D world-frame localization: monocular depth + camera calibration + IMU fusion → <0.5m error
 
-## 💼 Professional Experience
+---
 
-### 🔹 Full Stack Machine Learning Engineer | DeepEdge
-**March 2025 – Present | Hyderabad, India**
+## Open Source Contributions
 
-Building defense-grade computer vision systems:
-- 🎯 Developed **end-to-end anti-UAV quadcopter tracking system** for runaway detection under challenging infrared conditions
-- 🚀 Achieved **50%+ performance improvement** over YOLOv8s through motion queue masks optimization
-- 🔬 Implemented **MOG2 Background Subtraction + SVM Classification** achieving **30% performance gains**
-- 📈 Integrated advanced tracking algorithms: **Lucas-Kanade**, **TAPNet (GoogleDeepmind)**, **CoTracker (Facebook)**
-- 🎛️ Built sophisticated tracking models with **YOLOv8**, **Kalman filters** (linear & non-linear), and infrared thermal optimization
-- 👥 Successfully managed **2-3 simultaneous client projects** while maintaining high service quality
+| Project | Stars | What I Did |
+|---|---|---|
+| [**PyTorch Lightning**](https://github.com/Lightning-AI/pytorch-lightning) | 27K+ | [PRs →](https://github.com/Lightning-AI/pytorch-lightning/pulls?q=author%3Asoma2000-lang) |
+| [**Hugging Face Transformers**](https://github.com/huggingface/transformers) | 135K+ | [PRs →](https://github.com/huggingface/transformers/pulls?q=author%3Asoma2000-lang) |
+| [**KerasCV / KerasNLP**](https://github.com/keras-team/keras-cv) | — | Implemented augmentation layers used by 35K+ engineers |
+| [**Unify.ai (Ivy)**](https://github.com/unifyai/ivy) | — | Built 15+ TensorRT OpConverters, 3x faster inference, 40% memory reduction |
 
-### 🔹 Machine Learning Engineer and Developer | Deloitte
-**July 2023 – March 2025 | Hyderabad, India**
+---
 
-Delivered enterprise-grade AI solutions:
-- 🤖 Architected **multilingual RAG pipeline** with FAISS vector database, FastAPI endpoints, and Docker containerization
-- 🎬 Engineered **Django-based movie recommendation system** using content-based filtering, FunkSVD, and popularity algorithms
-- 📊 Developed **predictive model for customer purchase likelihood** achieving **90% accuracy** through advanced feature engineering
+## Selected Projects
 
-### 🔹 Machine Learning Developer | Unify.ai (Freelance)
-**Feb 2023 – May 2023 | Remote**
+### [`Paper-Implementations-in-Deep-Learning`](https://github.com/soma2000-lang/Paper-Implementations-in-Deep-Learning)
+From-scratch implementations of key deep learning papers in PyTorch. Not wrappers — actual algorithm reimplementations to understand the math.
 
-Contributed to cross-framework ML infrastructure:
-- 🔧 Implemented robust functions across **TensorFlow, JAX, NumPy, PyTorch, PaddlePaddle** increasing code coverage by 10%
-- ✅ Led comprehensive unit testing with **Hypothesis framework** achieving **80% test coverage**
-- 🛠️ Developed **Ivy OpConverters for TensorRT backend** and mentored contributors through complex codebases
+### [`vector-db`](https://github.com/soma2000-lang/vector-db) — Custom Vector Database
+HNSW graph-based approximate nearest neighbor search, built from scratch in Python with minimal dependencies. No LangChain, no Pinecone — just NumPy and the algorithm.
 
-## 🛠️ Technical Arsenal
+### [`flight-scanner`](https://github.com/soma2000-lang/flight-scanner) — RAG Flight Analytics
+Natural language queries over structured flight data using DeepSeek-R1 (70B) + LLaMA 3.2 (3B) with RAG architecture, ChromaDB, and FastAPI.
 
-### **Languages**
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+### [`amazon-classification`](https://github.com/soma2000-lang/amazon-classification) — Large-Scale Product Classification
+Fine-tuned ALBERT on 500K Amazon listings across 27 categories with 1:150 class imbalance. 89% F1 — beat BERT by 12% and the production baseline by 10%. Deployed with TensorRT.
 
-### **AI/ML Frameworks**
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![JAX](https://img.shields.io/badge/JAX-8A2BE2?style=for-the-badge)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
+### [`childmind-prediction`](https://github.com/soma2000-lang/childmind-prediction) — ChildMind Anxiety Prediction
+Gated RNNs analyzing children's physical activity patterns for early detection of problematic internet use. Healthcare ML with real clinical relevance.
 
-### **Computer Vision & Tracking**
-- YOLOv8, Kalman Filters (Linear & Non-linear)
-- Lucas-Kanade Tracking, TAPNet, CoTracker
-- MOG2 Background Subtraction, Infrared Thermal Optimization
-- Object Detection, Point Tracking, Motion Analysis
+### [`food-delivery`](https://github.com/soma2000-lang/food-delivery) — Full-Stack Delivery Platform
+Django REST + JWT auth. Vendor management, proximity search, payment integration, real-time order tracking, push notifications. Shows I build complete products, not just models.
 
-### **GenAI & LLMs**
-![LangChain](https://img.shields.io/badge/LangChain-121212?style=for-the-badge)
-![LangGraph](https://img.shields.io/badge/LangGraph-00ADD8?style=for-the-badge)
-- RAG Pipelines, Vector Databases (FAISS, ChromaDB, Pinecone)
-- DeepSeek-R1, LLama Models, Groq, Ollama
+---
 
-### **Backend & APIs**
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![REST API](https://img.shields.io/badge/REST%20API-FF6C37?style=for-the-badge)
-![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
+## Competition Results
 
-### **Databases**
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
+| Event | Result |
+|---|---|
+| **Challang Global Hackathon** | Top 10 / 100 teams worldwide — disaster response CV (satellite imagery + EfficientNet, 91% IoU) |
+| **HackerEarth ML Challenge** | Rank 18 / 2,500 |
+| **Cipla Datathon** | Rank 12 / 1,000+ (Top 1.2%) |
+| **Google Code Jam for Women** | Rank 1,600 / 50,000+ |
 
-### **DevOps & Cloud**
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![CI/CD](https://img.shields.io/badge/CI%2FCD-4285F4?style=for-the-badge)
+---
 
-## 🎯 Featured Projects
+## Publications
 
-### 🤖 [AI Agent Flight Scanner](https://github.com/soma2000-lang/flight-scanner)
-**Tech Stack:** Groq | Ollama | DeepSeek-R1 | LangChain | SQLite | ChromaDB | FastAPI
+- **"Privacy-Preserving Cloud Computing"** — Homomorphic encryption for secure computation. IEMATICS 2020
+- **"ML in Medical Diagnosis"** — Applied ML for clinical diagnostics. SPECTRUM 2020
 
-Built intelligent flight data analysis system using advanced RAG architecture with DeepSeek-R1-Distill-LLama-70B and LLama 3.2:3B models for comprehensive flight analytics.
+---
 
-### 🛍️ [Amazon Product Classification](https://github.com/soma2000-lang/amazon-classification)
-**Tech Stack:** PyTorch | Deep Learning | ALBERT Transformer
+## Professional Background
 
-Engineered sophisticated feature engineering and preprocessing pipeline improving model accuracy by 10% using synthetic PyTorch datasets and ALBERT transformer for advanced multiclass classification.
+**DeepEdge** (Defense AI Startup) — ML Engineer, Mar 2025 – Present
+**Deloitte** (AI Center of Excellence) — ML Engineer, Jul 2023 – Mar 2025
+**Unify.ai** — ML Engineer (Contract), Feb – May 2023
 
-### 🍕 [Django Food Delivery Platform](https://github.com/soma2000-lang/food-delivery)
-**Tech Stack:** Django REST Framework | SQLite | JWT Authentication
-
-Architected comprehensive full-stack food delivery platform featuring:
-- Vendor management system & proximity-based search
-- Payment integration & dynamic menu management
-- Automated tax calculations & real-time order tracking
-- Push notification system
-
-### 🧠 [ChildMind Anxiety Prediction](https://github.com/soma2000-lang/childmind-prediction)
-**Tech Stack:** TensorFlow | Gated RNNs | Deep Learning
-
-Developed innovative predictive healthcare model using Gated RNNs to analyze children's physical activity patterns for early detection of problematic internet use, contributing to child mental health research.
-
-### 🔍 [Custom Vector Database](https://github.com/soma2000-lang/vector-db)
-**Tech Stack:** Python | HNSW Graphs
-
-Built high-performance lightweight vector database using Hierarchical Navigable Small World (HNSW) graphs for efficient similarity search and retrieval operations.
-
-## 🏆 Achievements & Recognition
-
-### 🎖️ **Competitive Success**
-- 🥇 **Top 10 Finalist** - Challang Hackathon (100 elite teams worldwide)
-- 🥈 **Rank 18/2500** - HackerEarth ML Challenge
-- 🥉 **Rank 12/1000+** - Cipla Competition
-- 🌍 **1.6k Globally** - Google Code Jam for Women
-
-### 📚 **Research Publications**
-- 📄 **IEMATICS 2020** - Homomorphic Encryption ([Paper](https://link-to-paper))
-- 📄 **SPECTRUM 2020** - ML in Medicine ([Paper](https://link-to-paper))
-
-### 🌟 **Elite Programs**
-- 🎓 **LiFT Scholar 2022** - Top 500 worldwide
-- 👥 **GHC OSD'23 Mentor** - OpenSSF project mentor
-- 🌐 **Active Open Source Contributor** - PyTorch Lightning, Hugging Face Transformers, KerasCV, KerasNLP
-
-### 📜 **Certifications**
-- [HackerEarth Certificate](https://certificate-link-1)
-- [Cipla Competition Certificate](https://certificate-link-2)
-
-## 📊 GitHub Statistics
-
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=soma2000-lang&count_private=true&show_icons=true&theme=gotham&hide_border=true&include_all_commits=true" alt="GitHub Stats" height="170"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=soma2000-lang&theme=gotham&hide_border=true" alt="GitHub Streak" height="170"/>
-</p>
-
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=soma2000-lang&layout=compact&theme=gotham&hide_border=true&exclude_repo=dotfiles&hide=MATLAB&langs_count=8" alt="Top Languages"/>
-</p>
-
-## 📈 Contribution Graph
-
-[![Somasree's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=soma2000-lang&bg_color=0d1117&color=00ff00&line=ffff00&point=964b00&area=true&hide_border=true)](https://github.com/soma2000-lang?tab=repositories)
-
-## 💡 Problem Solving Profile
-
-<p align="left">
-  <a href="https://leetcode.com/soma2000-lang/">
-    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/>
-  </a>
-  <a href="https://www.hackerearth.com/@soma2000">
-    <img src="https://img.shields.io/badge/HackerEarth-2C3454?style=for-the-badge&logo=hackerearth&logoColor=white" alt="HackerEarth"/>
-  </a>
-</p>
-
-**Expertise in:** Data Structures, Algorithms, Competitive Programming, Problem Solving
-
-## 📫 Let's Connect!
-
-<p align="left">
-  <a href="mailto:seckroll16@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
-  </a>
-  <a href="https://www.linkedin.com/in/somasree-majumder-3533411aa/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="https://github.com/soma2000-lang">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-  <a href="https://soma2000-lang.github.io/portfolio">
-    <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/>
-  </a>
-</p>
+B.Tech ECE, Institute of Engineering & Management, Kolkata — 8.94/10 CGPA
 
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
-</p>
-
-<p align="center">
-  <i>⚡ "The only way to do great work is to love what you do." - Steve Jobs</i>
-</p>
-
-<p align="center">
-  <i>💻 Open to collaboration on ML/AI projects | 🌟 Always learning and growing</i>
+  <img src="https://github-readme-stats.vercel.app/api?username=soma2000-lang&count_private=true&show_icons=true&theme=default&hide_border=true&include_all_commits=true" alt="GitHub Stats" height="160"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=soma2000-lang&theme=default&hide_border=true" alt="GitHub Streak" height="160"/>
 </p>
